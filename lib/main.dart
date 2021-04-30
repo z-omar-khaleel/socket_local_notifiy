@@ -82,7 +82,7 @@ class Home extends StatelessWidget {
                                     context: context,
                                     initialDate: DateTime.now(),
                                     firstDate: DateTime.now(),
-                                    lastDate: DateTime.parse('2021-05-03'),
+                                    lastDate: DateTime.parse('2021-12-03'),
                                   ).then((value) {
                                     startController.text =
                                         DateFormat.yMMMd().format(value);
@@ -96,7 +96,7 @@ class Home extends StatelessWidget {
                                     context: context,
                                     initialDate: DateTime.now(),
                                     firstDate: DateTime.now(),
-                                    lastDate: DateTime.parse('2021-05-03'),
+                                    lastDate: DateTime.parse('2021-12-03'),
                                   ).then((value) {
                                     endController.text =
                                         DateFormat.yMMMd().format(value);
